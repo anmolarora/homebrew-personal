@@ -20,7 +20,7 @@ class Qt5Webkit < Formula
   # fix installation permissions
   # /Tools/qmake/projects/run_cmake.pro
   patch do
-    url "https://raw.githubusercontent.com/markwu/homebrew-personal/master/Formula/qt5-webkit.diff"
+    url "https://raw.githubusercontent.com/anmolarora/homebrew-personal/master/Formula/qt5-webkit.diff"
     sha256 "96ccb8b922ae79bc7a3cd8bfe51a2b12f05f89598a839eafb81d24f27b527fa9"
   end
 
