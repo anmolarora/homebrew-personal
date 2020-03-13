@@ -10,19 +10,19 @@ class Zeal < Formula
 
   depends_on "cmake" => :build
   depends_on "qt"
-  depends_on "markwu/personal/qt5-webkit"
+  depends_on "qt5-webkit"
   depends_on "libarchive"
 
   stable do
     patch do
-      url "https://raw.githubusercontent.com/markwu/homebrew-personal/master/Formula/zeal@0.6.1.diff"
+      url "https://raw.githubusercontent.com/anmolarora/homebrew-personal/master/Formula/zeal@0.6.1.diff"
       sha256 "55bda868aaa3092b84575db5151f910045b650bdf7b6dfe1058cdea91829a810"
     end
   end
 
   head do
     patch do
-      url "https://raw.githubusercontent.com/markwu/homebrew-personal/master/Formula/zeal@head.diff"
+      url "https://raw.githubusercontent.com/anmolarora/homebrew-personal/master/Formula/zeal@head.diff"
       sha256 "91ea0afb7f18865c859fa47301c6f12a4c9aec4556d8b705f7ce32c1caa8102a"
     end
   end
